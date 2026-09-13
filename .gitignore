@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .generated/
+.vercel/
 test-results/
 evidence/
 demo/
