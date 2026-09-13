@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.generated/
+test-results/
+evidence/
+demo/
+pw-tmp/
+*.webm
+.DS_Store

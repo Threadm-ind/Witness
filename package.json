@@ -1,0 +1,23 @@
+{
+  "name": "witness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Witness — local writing capture, faithful replay, sentence revision exploration, offline HTML export. Hackyard Yard #2.",
+  "engines": {
+    "node": ">=26.7.0"
+  },
+  "scripts": {
+    "dev": "node scripts/build.mjs --dev",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.ts",
+    "test:e2e": "playwright test",
+    "preview": "vite preview --host 127.0.0.1 --port 4182 --strictPort"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.0"
+  }
+}
